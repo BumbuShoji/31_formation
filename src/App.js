@@ -46,7 +46,7 @@ const App = () => {
           </select>
         </div>
       ))}
-      <a href="https://github.com/your-repo" target="_blank" rel="noopener noreferrer">
+      <a href="https://github.com/BumbuShoji/31_formation.git" target="_blank" rel="noopener noreferrer">
           <i className="fab fa-github"></i> View on GitHub
         </a>
       <FormationDisplay formation={formations[formation]} playerAssignments={playerAssignments} />
