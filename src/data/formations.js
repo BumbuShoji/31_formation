@@ -15,7 +15,7 @@ export const formations = {
     "4-3-3": [
       { position: "GK", x: 50, y: 90 },
       { position: "LB", x: 10, y: 70 },
-      { position: "CB", x: 35, y: 80 },
+      { position: "CB", x: 35, y: 79 },
       { position: "CB", x: 65, y: 80 },
       { position: "RB", x: 90, y: 70 },
       { position: "CM", x: 20, y: 50 },
