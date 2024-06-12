@@ -20,6 +20,13 @@ const App = () => {
   return (
     <div>
       <h1>31 よくばりフェス イレブン</h1>
+      <p>このページはサーティーワンのよくばりフェスで選んだアイスを使ってサッカーのフォーメーションを組めるものです。
+        セレクトボックスからまずフォーメーションを選んで、選手を選んでください。
+
+        GKはトリプルチョコレートブレイクで固定しています。他の選手は自由に選べます。
+        あなただけのサーティワンイレブンを作ってみてください！
+        機能はまだ限られていますが、今後もっと機能を追加していく予定です。
+      </p>
       <select onChange={(e) => setFormation(e.target.value)} value={formation}>
         {Object.keys(formations).map(f => (
           <option key={f} value={f}>{f}</option>
